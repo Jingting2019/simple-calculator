@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 55%;
+  margin: auto;
+  padding: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, minmax(70px, 1fr));
+
+}
+
+#output {
+  grid-area: 1/ 1/ 2/ 5;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.operatorEqual {
+  grid-area: 3/ 4/ 7/ 5;
+}
+
+.darkBackground {
+  background-color: #484E56;
+}
+
+.grayBackground {
+  background-color: #E7E7E7;
+}
+
+.whiteBackground {
+  background-color: white;
+}
+
+.redBackground {
+  background-color: #F9564A;
+}
